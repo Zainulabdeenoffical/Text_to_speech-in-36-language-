@@ -1,0 +1,48 @@
+body {
+    font-family:arial;
+}
+input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: solid 2px #BBB;
+}
+div {
+    margin:10px 0px;
+}
+button {
+    padding:10px;
+    background-color:#6a67ce;
+    color: #FFFFFF;
+    border: 0px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+#select_language{
+    width: 200px;
+background-color: #6a67ce;
+padding:10px;
+background-color:#6a67ce;
+color: #FFFFFF;
+border: 0px;
+cursor:pointer;
+border-radius: 5px;
+}
+h3{
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s steps(13) infinite alternate;
+    border-right: 3px solid black;
+
+  }
+@keyframes text {
+  
+0%{
+  width: 0ch;
+}
+50%{
+   width: 14ch;
+}
+
+}
